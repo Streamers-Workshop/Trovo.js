@@ -1,0 +1,15 @@
+{
+  "name": "trovojs_example_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chatbot_example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "trovo.js": "^1.0.0"
+  }
+}
