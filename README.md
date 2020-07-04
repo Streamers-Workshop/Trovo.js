@@ -31,7 +31,7 @@ trovo.js is a powerful [Node.js](https://nodejs.org) module that allows you to e
 const Trovo = require('trovo.js');
 const client = new Trovo.Client();
 
-client.on("chatMessage", (data) => {
+client.on("chatMessage", (msg) => {
   if (msg.content === 'ping') {
     client.sendMessage('pong');
   }
