@@ -1,6 +1,6 @@
 {
   "name": "trovojs_example_bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "chatbot_example.js",
   "scripts": {
@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "trovo.js": "^1.0.0"
+    "trovo.js": "^1.0.0",
+    "dotenv": "^8.2.0"
   }
 }
