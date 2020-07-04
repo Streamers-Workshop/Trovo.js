@@ -37,7 +37,7 @@ client.on("chatMessage", (data) => {
   }
 })
 
-client.login('token');
+client.login('trovo_user_url', 'email', 'password');
 ```
 
 ## Contributing
