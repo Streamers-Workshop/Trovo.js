@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "trovo.js": "^1.0.0",
+    "trovo.js": "^1.3.1",
     "dotenv": "^8.2.0"
   }
 }
