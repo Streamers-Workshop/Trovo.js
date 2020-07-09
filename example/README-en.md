@@ -31,3 +31,18 @@ bot.on("chatMessage", (data) => {
 There is other data that can be collected from the other events, but it is up too you to choose what you wanna do with the data. This is just a example. Enjoy <3
 
 Visit the Official Trovo.js Discord if you have Questions: https://discord.gg/Kc7fyx2
+
+## Contributing
+
+The following infos are meant for developers. If you have any questions feel free to join our Discord (link above) and ask questions.
+If you would like to contribute in any way (bugfixes, features, etc.) please adhere to the following points
+
+* Fork this repository, create a feature branch, do your changes in this feature branch and then create a Pull Request from that. Your pull request needs to be auto-mergeable. Therefore if there were any intermediate commits on the project since you created the feature branch, please resolve the conflicts by e.g. rebasing your branch.
+* The project exploded in the first couple of days (feature and commit wise) which resulted in a messy code base. That's why we decided to use Prettier & ESLint. Before creating a Pull Request your code has to match these requirements. To display any errors run 
+`
+node_modules/eslint/bin/eslint.js lib/**
+`
+This will display all errors and warnings. Most of these things can probably be fixed automatically (like code formatting). To do this, run
+`
+node_modules/eslint/bin/eslint.js lib/** --fix
+`
