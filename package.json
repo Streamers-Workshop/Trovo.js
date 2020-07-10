@@ -1,6 +1,6 @@
 {
   "name": "trovo.js",
-  "version": "1.3.3",
+  "version": "1.4.0",
   "description": "A powerful library for interacting with the Trovo API",
   "main": "./lib/index.js",
   "scripts": {
