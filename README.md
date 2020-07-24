@@ -27,20 +27,7 @@ trovo.js is a powerful [Node.js](https://nodejs.org) module that allows you to e
 
 ## Example usage
 
-```js
-const Trovo = require('trovo.js');
-const client = new Trovo.Client();
-
-client.on("chatMessage", (msg) => {
-  if (msg.content === 'ping') {
-    client.sendMessage('pong');
-  }
-})
-
-client.login('trovo_user_url', 'email', 'password');
-// OR to login Anonymously without Mod functionality
-client.login('trovo_user_url');
-```
+For an example how to use this library please have a look at [TrovoBot](https://github.com/Bioblaze/TrovoBot).
 
 ## Reporting a bug
 
