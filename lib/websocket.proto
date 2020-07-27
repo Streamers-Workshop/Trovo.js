@@ -1,0 +1,7 @@
+package WebSocket;
+syntax = "proto3";
+ 
+message Message {
+    string token = 1;
+}
+
