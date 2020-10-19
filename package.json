@@ -1,6 +1,6 @@
 {
   "name": "trovo.js",
-  "version": "1.9.4",
+  "version": "1.9.5",
   "description": "A powerful library for interacting with the Trovo API",
   "main": "./lib/index.js",
   "scripts": {
@@ -19,9 +19,9 @@
   ],
   "author": "Bioblaze Payne <bioblazepayne@gmail.com>",
   "bugs": {
-    "url": "https://github.com/bioblaze/trovo.js/issues"
+    "url": "https://github.com/Streamers-Workshop/trovo.js/issues"
   },
-  "homepage": "https://github.com/bioblaze/trovo.js#readme",
+  "homepage": "https://github.com/Streamers-Workshop/trovo.js#readme",
   "license": "Apache-2.0",
   "dependencies": {
     "@apollo/client": "^3.1.5",
