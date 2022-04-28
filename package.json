@@ -31,7 +31,7 @@
     "apollo-link-http": "^1.5.17",
     "apollo-link-persisted-queries": "^0.2.2",
     "graphql": "^15.3.0",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^3.2.4",
     "pbf": "^3.2.1",
     "prettier": "^2.1.1",
     "protobufjs": "^6.10.1",
